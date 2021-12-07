@@ -1,3 +1,5 @@
+package Lab5;
+
 public class Patient {
     private String nom;
     private int arriver,examenDuree;

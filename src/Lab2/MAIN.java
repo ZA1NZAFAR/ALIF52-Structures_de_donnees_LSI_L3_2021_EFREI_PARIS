@@ -1,3 +1,5 @@
+package Lab2;
+
 public class MAIN {
     public static void main(String[] args) {
         System.out.println("TESTS Pile Array");

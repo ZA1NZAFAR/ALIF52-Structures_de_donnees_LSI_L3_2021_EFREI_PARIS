@@ -1,4 +1,5 @@
-package E2;
+package Lab1.E2;
+
 //La classe element contient maintenant l'element suivant ainsi que l'element precedent
 public class Element {
     String val;

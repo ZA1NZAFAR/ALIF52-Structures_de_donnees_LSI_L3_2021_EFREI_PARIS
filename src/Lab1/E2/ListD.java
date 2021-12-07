@@ -1,4 +1,4 @@
-package E2;
+package Lab1.E2;
 
 import java.util.Objects;
 

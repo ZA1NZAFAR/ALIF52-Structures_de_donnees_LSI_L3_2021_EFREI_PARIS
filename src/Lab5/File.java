@@ -1,3 +1,5 @@
+package Lab5;
+
 public class File {
     private Patient patient;
 

@@ -1,4 +1,4 @@
-package E1;
+package Lab1.E1;
 
 public class Element {
     int val;

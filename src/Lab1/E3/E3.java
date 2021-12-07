@@ -1,6 +1,5 @@
-package E3;
-
-import E2.ListD;
+package Lab1.E3;
+import Lab1.E2.ListD;
 
 public class E3 {
     //on utilise la classe liste creer lors de l'exo 2

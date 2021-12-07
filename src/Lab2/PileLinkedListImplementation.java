@@ -1,3 +1,5 @@
+package Lab2;
+
 public class PileLinkedListImplementation {
     Node list;
 
