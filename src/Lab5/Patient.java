@@ -1,11 +1,14 @@
 package Lab5;
 
+// Class: Patient le noeud de la file d'attente de patients (FIFO)
 public class Patient {
-    private String nom;
-    private int arriver,examenDuree;
-    private Patient predecesseur;
-    private Patient successeur;
+    private String nom; // nom du patient
+    private int arriver; // heure d'arrivée
+    private int examenDuree; // durée de l'examen
+    private Patient predecesseur; // patient précédent
+    private Patient successeur; // patient suivant
 
+    // Constructeur de Patient
     public Patient(String nom, int arriver, int examenDuree) {
         this.nom = nom;
         this.arriver = arriver;
@@ -14,6 +17,15 @@ public class Patient {
         this.successeur = null;
     }
 
+    // Affichage d'un patient
+    @Override
+    public String toString() {
+        return "Patient{" +
+                "nom='" + nom + '\'' +
+                '}';
+    }
+
+    // Getters et Setters
     public String getNom() {
         return nom;
     }
@@ -54,10 +66,4 @@ public class Patient {
         this.examenDuree = examenDuree;
     }
 
-    @Override
-    public String toString() {
-        return "Patient{" +
-                "nom='" + nom + '\'' +
-                '}';
-    }
 }
